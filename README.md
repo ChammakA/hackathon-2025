@@ -1,6 +1,12 @@
 # hackathon-2025
 
 Problem -
+
+
 Solution - 
-Setup Instructions
+
+
+Setup Instructions -
+
+
 How AI is Integrated - 
