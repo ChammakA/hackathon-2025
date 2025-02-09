@@ -1,6 +1,7 @@
 # hackathon-2025
 
 # 🛒 AI-Powered Grocery Budget & Health Assistant
+# By Kalan Dsouza, Hikmatullah Hussain Zada, Sammak Ahmed, Hailey Dsouza
 
 ## 🚀 Overview
 This project helps users **compare the cheapest vs. healthiest grocery options** using AI.  
