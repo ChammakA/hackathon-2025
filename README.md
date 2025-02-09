@@ -27,7 +27,7 @@ Many people struggle to buy **healthy groceries while staying on budget**. This 
 ## 🔥 **AI-Powered Features**
 ### 🧠 **Healthiest Grocery Selection (AI)**
 - **Uses NLP & filtering logic** to find **organic, low-fat, low-sugar, whole-grain** items.
-- **Avoids mismatches** (e.g., prevents protein shakes from showing up for "milk").
+- **Avoids mismatches**.
 - **Smart swap recommendations** for healthier alternatives if items are too expensive.
 
 ### 🏪 **Cheapest Grocery Price Finder**
