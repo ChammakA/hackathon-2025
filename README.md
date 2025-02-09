@@ -49,7 +49,7 @@ Many people struggle to buy **healthy groceries while staying on budget**. This 
 |-----------------|-----------------|-----------------|
 | _User enters groceries & budget_ | _AI finds cheapest vs. healthiest options_ | _Users select options & budget updates_ |
 
-_(Add real screenshots here once UI is ready.)_
+
 
 ---
 
