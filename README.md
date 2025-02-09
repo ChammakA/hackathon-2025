@@ -16,8 +16,8 @@ Many people struggle to buy **healthy groceries while staying on budget**. This 
 ## 🎯 **How It Works**
 1️⃣ **User inputs grocery items & budget.**  
 2️⃣ **Backend fetches data:**  
-   - Finds **cheapest price per item** from different stores.  
-   - Finds **healthiest alternative** using AI filtering.  
+    - Finds **cheapest price per item** from different stores.  
+    - Finds **healthiest alternative** using AI filtering.  
 3️⃣ **Frontend displays a clear comparison table.**  
 4️⃣ **User selects cheapest or healthiest option per item.**  
 5️⃣ **Budget dynamically updates as selections are made.**  
