@@ -15,6 +15,12 @@ import requests
 from dotenv import load_dotenv
 
 # Initialize Firebase
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run in headless mode
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+driver = webdriver.Chrome(service=Service(r"C:\Webdriver\chromedriver.exe"), options=chrome_options)
 cred = credentials.Certificate("grocery-optimizer-40b48-firebase-adminsdk-fbsvc-b21ac7f0fc.json") # Update path
 firebase_admin.initialize_app(cred)
 db = firestore.client()
@@ -28,15 +34,10 @@ NUTRITIONIX_APP_ID = os.getenv("NUTRITIONIX_APP_ID", "").strip()
 NUTRITIONIX_APP_KEY = os.getenv("NUTRITIONIX_APP_KEY", "").strip()
 
 # Configure Selenium for Walmart
-chrome_options = Options()
-chrome_options.add_argument("--headless")  # Run in headless mode
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-dev-shm-usage")
+
 
 def scrape_walmart(product_name):
     """Scrape Walmart for product prices using Selenium"""
-    driver = webdriver.Chrome(service=Service('path/to/chromedriver'), options=chrome_options)
     try:
         driver.get(f"https://www.walmart.com/search?q={product_name}")
         time.sleep(5)  # Wait for the page to load

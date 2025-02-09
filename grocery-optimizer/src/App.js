@@ -9,6 +9,7 @@ const App = () => {
     const handleSearch = async (data) => {
         try {
             const response = await axios.post("http://127.0.0.1:5000/scrape-prices", data);
+            console.log(response.data);
             setResults(response.data);
         } catch (error) {
             console.error("Error fetching data", error);
