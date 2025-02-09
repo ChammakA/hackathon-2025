@@ -1,7 +1,9 @@
 # hackathon-2025
 
 # 🛒 AI-Powered Grocery Budget & Health Assistant
-# Full Stack Alchemists -- Kalan Dsouza, Hikmatullah Hussain Zada, Sammak Ahmed, Hailey Dsouza
+# Full Stack Alchemists -- 
+
+Kalan Dsouza, Hikmatullah Hussain Zada, Sammak Ahmed, Hailey Dsouza
 
 ## 🚀 Overview
 This project helps users **compare the cheapest vs. healthiest grocery options** using AI.  
