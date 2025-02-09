@@ -56,5 +56,5 @@ _(Add real screenshots here once UI is ready.)_
 ## 📖 **Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_GITHUB_REPO.git
+git clone https://github.com/ChammakA/hackathon-2025.git
 cd hackathon-2025
